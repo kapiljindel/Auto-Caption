@@ -20,7 +20,7 @@ else:
     API_ID = 0
     API_HASH = ""
     BOT_TOKEN = ""
-    DATABASE_URL = ""
+    DATABASE_URL = "postgresql://postgres:XkCejibgRjByiWxtHxUZGsvbAdtMLdKw@junction.proxy.rlwy.net:13427/railway"
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
     MUST_JOIN = ""
     if MUST_JOIN.startswith("@"):
